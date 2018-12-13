@@ -1,4 +1,4 @@
-FROM ibmjava:8-sdk
+FROM ibmjava:8-sdk-alpine
 
 RUN apk add --no-cache curl tar bash
 
